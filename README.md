@@ -50,5 +50,35 @@ Por ejemplo:
 
 ![image](https://github.com/Miguelapp10/-Microsoft_Power_Platform/assets/114699192/680fd9ac-bf34-4938-8456-4d5e2593de2e)
 
+iNPUTS : @{items('Apply_to_each')?['CORREOS']}
 
+*FILTER ARRAY*
+
+![image](https://github.com/Miguelapp10/-Microsoft_Power_Platform/assets/114699192/d314e24a-a90a-4c17-bdf7-a544e7a5e7b9)
+
+Aqui filtrara los datos que corresponde segun SELECT y COMPOSE_4.
+*Create HTML table*
+
+![image](https://github.com/Miguelapp10/-Microsoft_Power_Platform/assets/114699192/250f6616-9ae3-41fb-9d12-adb01e02b959)
+
+EN VALUE: @{item()['BULTO']} y @{formatDateTime(item()['FECHA'],'dd-MM-yyyy')}
+
+*COMPOSE 5*
+
+![image](https://github.com/Miguelapp10/-Microsoft_Power_Platform/assets/114699192/88a3f2a8-609c-44c3-aa6b-da52c6a89b8a)
+
+Aqui le das formato a la tabla HTML
+
+*SEND AN EMAIL 
+
+![image](https://github.com/Miguelapp10/-Microsoft_Power_Platform/assets/114699192/98413d7f-fef1-4689-afe0-e97388a7b02f)
+
+Aqui pones los datos que has puestos en cada cada compose 2,3 y 4.
+
+![image](https://github.com/Miguelapp10/-Microsoft_Power_Platform/assets/114699192/fe435aba-8437-4665-99aa-3a28a4f38a06)
+
+
+![image](https://github.com/Miguelapp10/-Microsoft_Power_Platform/assets/114699192/489a6b95-0783-4db5-8802-d22952c7ff0b)
+
+Aqui pones si deseas agregar los archivos de excel y la sensibilidad
 
