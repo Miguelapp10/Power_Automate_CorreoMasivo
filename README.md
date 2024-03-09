@@ -10,3 +10,6 @@ Esta automatizacion de flujo de caja sobre envio de correo para proveedores y/o 
 -  Facilita la identificación de posibles problemas o áreas de mejora en los procesos de envío de correos masivos.
 -  Contribuye a garantizar el cumplimiento de políticas y procedimientos al seguir flujos de trabajo predefinidos y consistentes.
 - Minimiza el riesgo de errores humanos al estandarizar y automatizar procesos.
+
+Solucion Compleja
+![image](https://github.com/Miguelapp10/Correo_Masivo_Power_Automate/assets/114699192/c78faa56-2ae2-4231-a30b-fc14bc13e889)
