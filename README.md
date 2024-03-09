@@ -26,4 +26,29 @@ Esta permite programar la ejecución de un flujo de trabajo en intervalos regula
 Si en el caso deseas enviar informacion no repetidas del dia ayer se debera agregar una formula en el excel la siguiente codicion:
 ![image](https://github.com/Miguelapp10/-Microsoft_Power_Platform/assets/114699192/9df90673-0c2f-48af-bade-f0cf21a6926e)
 
+Muy importante! 
+En pagination siempre poner 5000 para que el flujo pueda las 5000 primeras filas del excel web.
+![image](https://github.com/Miguelapp10/-Microsoft_Power_Platform/assets/114699192/04fd4dce-a485-40ed-98e7-9d7c6c46967f)
+
+*SELECT*
+
+![image](https://github.com/Miguelapp10/-Microsoft_Power_Platform/assets/114699192/93040a5d-1c6d-4162-89a9-2ba3e0b50fd4)
+
+*COMPOSE*
+
+![image](https://github.com/Miguelapp10/-Microsoft_Power_Platform/assets/114699192/6e8bd1b9-b686-45f8-9678-90b3c63dca6a)
+
+iNPUTS : @{union(body('Select'),body('Select'))}
+
+![image](https://github.com/Miguelapp10/-Microsoft_Power_Platform/assets/114699192/c277c880-56ca-4817-8e03-d16b690d6535)
+
+En el compose 2,3 y 4 van los datos que has seleccionado en SELECT.
+
+Por ejemplo:
+
+*COMPOSE 4*
+
+![image](https://github.com/Miguelapp10/-Microsoft_Power_Platform/assets/114699192/680fd9ac-bf34-4938-8456-4d5e2593de2e)
+
+
 
